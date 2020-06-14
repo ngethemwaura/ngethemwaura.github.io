@@ -1,15 +1,15 @@
 body{
     background: rgb(231, 146, 34);
-    background-image: url("/images/man-in-gray-shirt-holding-baby-in-white-onesie-3536630.jpg");
+    background-image: url("images/manandbaby.jpg");
     background-position: left;
     padding: 0;
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma,  Geneva, Verdana, sans-serif;
 }
 
 header{
     background: black;
-    background-image: url("/images/man-in-gray-shirt-holding-baby-in-white-onesie-3536630.jpg");
+    background-image: url("images/manandbaby.jpg");
     background: transparent;
     background-size: 100%;
     background-position: center;
