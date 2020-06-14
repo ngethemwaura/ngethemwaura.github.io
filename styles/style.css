@@ -1,0 +1,57 @@
+body{
+    background: rgb(231, 146, 34);
+    background-image: url("/images/man-in-gray-shirt-holding-baby-in-white-onesie-3536630.jpg");
+    background-position: left;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background: black;
+    background-image: url("/images/man-in-gray-shirt-holding-baby-in-white-onesie-3536630.jpg");
+    background: transparent;
+    background-size: 100%;
+    background-position: center;
+    height: 400px;
+    margin: 0px;
+    padding: 20px;
+    color: ivory;
+}
+
+
+header ul{
+    margin-left: 20px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+header li{
+    margin-right: 40px;
+    display: inline-block;
+
+}
+
+.introsection{ 
+    background:transparent;
+    padding: 0px;
+}
+
+
+.inputsection{
+    background: ivory;
+     background: transparent;
+    padding: 20px;
+}
+
+.footersegment{
+    background: rgb(68, 68, 68);
+    padding: 20px;
+    text-align: center;
+}
+
+.footerlist{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
