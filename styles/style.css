@@ -98,6 +98,7 @@ section{
 .blog-card{
     flex: 0 0 auto;
     background: white;
+    background-image: url("images/content-poster.jpg");
     margin-right: 20px;
     width: 75%;
     height:440px;
@@ -132,17 +133,47 @@ section{
 }
 
 .content{
-    background: rgb(255, 248, 235);
+    background: crimson;
     height: 100%;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 20px;
+    text-overflow: ellipsis;
+    font-size: 2em;
+    color: wheat;
 }
+
+.content p
+{}
 
 .content-tag{
-    background: cyan;
+    background: crimson;
+
 }
 
-.blog-title{
-    background: yellow;
+.content-tag p{
+    color: gold;
+    font-size: 1.25em;
+    border: wheat;
+    display: inline-block;
+    border-style: solid;
+    border-radius: 4px;
+    margin: 20px;
+    border-width: thin;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;   
+}
+
+.blog-title{  
+    background: transparent;
+    background-size: 100%;
+    background-position: center;
     font-size: 3em;
+    color: whitesmoke;
+    margin: 20px;
 }
 
 footer{
