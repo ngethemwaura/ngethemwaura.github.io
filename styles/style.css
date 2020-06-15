@@ -1,6 +1,5 @@
 body{
-    background: rgb(231, 146, 34);
-    background-position: left;
+    background: black;
     padding: 0;
     margin: 0;
     font-family: 'Segoe UI', Tahoma,  Geneva, Verdana, sans-serif;
@@ -8,22 +7,44 @@ body{
 
 header{
     background: black;
-    height: 400px;
+    height:550px;
     margin: 0px;
-    padding: 20px;
+    margin-bottom: 20px;
     color: ivory;
+}
+
+
+section{
+    margin: 20px;
 }
 
 header h1{
     text-align:center ;
 }
 
-.header-options-wrapper{
-    display: flex;
+.featured-projects h2{
+    color: honeydew;
+}
+
+.blog-updates h2{
+    color: honeydew;
+}
+
+.clients h2{
+    color: honeydew;
+}
+
+.header-option{
+    margin-right:2px;
+    background: goldenrod; 
+    height: 400px;
+    width: 33.333%;
+
 }
 
 .options-wrapper{
-    columns: auto;
+    display: flex;
+    justify-content:center;
 }
 
 
@@ -32,20 +53,53 @@ header h1{
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
+    padding: 20px;
+    justify-content: center;
 }
 
 .auto-scrolling-wrapper{
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
+    padding: 20px;
 }
 
-.card{
+.blog-scrolling-wrapper{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 20px;
+    justify-content: start;
+}
+
+.client-card{
     flex: 0 0 auto;
+    background: cyan;
+    margin: auto;
+}
+
+.project-card{
+    flex: 0 0 auto;
+    background: red;
+    height:360px;
+    width:25% ;
+    margin-right: 2px; 
+    text-align: start;
 }
 
 .wide-card{
     flex: 0 0 auto;
+    background: white;
+    margin-right: 20px;
+    width: 75%;
+    height:440px;
+}
+
+.wide-card h2{
+    font-size: 24pt;
+    position: absolute;
+    top: 80px;
+    color: black;
 }
 
 footer{
