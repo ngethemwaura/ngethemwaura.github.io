@@ -1,6 +1,5 @@
 body{
     background: rgb(231, 146, 34);
-    background-image: url("images/manandbaby.jpg");
     background-position: left;
     padding: 0;
     margin: 0;
@@ -9,49 +8,46 @@ body{
 
 header{
     background: black;
-    background-image: url("images/manandbaby.jpg");
-    background: transparent;
-    background-size: 100%;
-    background-position: center;
     height: 400px;
     margin: 0px;
     padding: 20px;
     color: ivory;
 }
 
-
-header ul{
-    margin-left: 20px;
-    padding: 0px;
-    list-style-type: none;
+header h1{
+    text-align:center ;
 }
 
-header li{
-    margin-right: 40px;
-    display: inline-block;
-
-}
-
-.introsection{ 
-    background:transparent;
-    padding: 0px;
-}
-
-
-.inputsection{
-    background: ivory;
-     background: transparent;
-    padding: 20px;
-}
-
-.footersegment{
-    background: rgb(68, 68, 68);
-    padding: 20px;
-    text-align: center;
-}
-
-.footerlist{
+.header-options-wrapper{
     display: flex;
-    flex-direction: row;
-    list-style: none;
+}
+
+.options-wrapper{
+    columns: auto;
+}
+
+
+
+.scrolling-wrapper{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.auto-scrolling-wrapper{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.card{
+    flex: 0 0 auto;
+}
+
+.wide-card{
+    flex: 0 0 auto;
+}
+
+footer{
+    display: flex;
 }
